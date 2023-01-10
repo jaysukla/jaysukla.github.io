@@ -42,13 +42,13 @@ a{
 
     width: 100%;
     border: 1px solid white;
-    height: 1200px;
+    /* height: 1200px; */
    
 }
 #homep{
 width: 100%;
-height: 600px;
-border: 1px solid yellow;
+height: 500px;
+/* border: 1px solid yellow; */
 margin-top: 100px;
 display: flex;
 
@@ -58,7 +58,7 @@ display: flex;
 
     width: 55%;
     height: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 
 }
 #hlf>#hl{
@@ -81,14 +81,14 @@ margin-top: 10%;
 
     width: 45%;
     height: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 
 }
 
-#para{
+/* #para{
     width: 90%;
     font-family: serif;
-}
+} */
 .container{
     margin-top: -5%;
 }
@@ -102,8 +102,152 @@ font-size: 40px;
 #photo{
     width: 40%;
     height: 300px;
-    border: 1px solid grey ;
-    margin-top: 20%;
+    /* border: 1px solid grey ; */
+    margin-top: 12%;
     margin-left: 10%;
     border-radius: 5px;
+}
+
+
+#ABOUT{
+
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid green; */
+    background-color: #1a202c;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    display: flex;
+
+}
+#Al{
+    width: 45%;
+    /* border: 1px solid yellowgreen; */
+}
+#Ar{
+    width: 55%;
+    /* border: 1px solid grey; */
+}
+#Abi{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid grey; */
+    margin-top: 15%;
+    margin-left: 20%;
+    
+}
+#Abi>img{
+    width: 90%;
+    border-radius: 7%;
+}
+#Ard{
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: x-large;
+}
+#Art{
+    font-size:x-large ;
+}
+#photo>img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+@media all and (min-width: 200px) and (max-width: 630px) {
+    #nav{
+        width: 100%;
+    }
+    #skills{
+        display: none;
+    }
+    #port{
+        display: none;
+    }
+    #homep{
+        
+        height: auto;
+       
+        
+        }
+    #homep{
+        display: block;
+    }
+    #homep>#hlf{
+
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid grey; */
+    
+    }
+    #hlf p{
+font-size: 30px;
+    }
+    #hlf h1{
+        font-size: 40px;
+    }
+
+    #homep>#hr{
+
+        width: 100%;
+        
+        /* border: 1px solid grey; */
+    
+    }
+
+    #photo{
+        width: 45%;
+        height: 300px;
+        /* border: 1px solid grey ; */
+        margin: auto;
+        /* margin-top: 25px ; */
+        
+      
+    }
+
+    #Al{
+        display: none;
+    }
+
+    #Ar{
+        width: 100%;
+    }
+#Art{
+    width: 46%;
+    margin: auto;
+    /* border: 1px solid red; */
+    font-size: large;
+    text-align: center;
+}
+
+#Ard{
+    width: 88%;
+   margin: auto;
+    font-size: large;
+}
+
+
+
+
+}
+
+
+
+
+@media all and (min-width: 200px) and (max-width: 380px){
+
+#ABOUT{
+    margin-top: -50px;
+}
+
+#photo{
+    width: 40%;
+    height: 200px;
+    /* border: 1px solid grey ; */
+    margin: auto;
+    /* margin-top: 25px ; */
+    
+  
+}
+
 }
