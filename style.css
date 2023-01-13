@@ -154,6 +154,47 @@ font-size: 40px;
 }
 
 
+
+#Skills{
+
+    width: 100%;
+
+}
+#sk{
+    width: 10%;
+    margin: auto;
+    display: flex;
+  text-align: center;
+}
+
+#SK{
+width: 55%;
+margin: auto;
+/* border: 1px solid 
+grey ; */
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px
+;
+
+}
+#SK>div{
+
+border: 1px solid grey;
+border-radius: 10%;
+display: flex;
+justify-content: center;
+}
+
+#SK>div>img{
+    width: 100%;
+}
+
+#sk{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 @media all and (min-width: 200px) and (max-width: 630px) {
     #nav{
         width: 100%;
@@ -226,18 +267,37 @@ font-size: 30px;
     font-size: large;
 }
 
+#SK{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid 
+    grey ; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px
+    ;
+    
+    }
 
-
+#sk{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#SK>div>img{
+    width: 100%;
+}
 
 }
 
 
 
 
-@media all and (min-width: 200px) and (max-width: 380px){
+@media all and (min-width: 200px) and (max-width: 400px){
 
 #ABOUT{
     margin-top: -50px;
+    height: 500px;
 }
 
 #photo{
@@ -250,4 +310,7 @@ font-size: 30px;
   
 }
 
+
+
 }
+
