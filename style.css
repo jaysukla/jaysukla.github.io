@@ -187,7 +187,7 @@ justify-content: center;
 }
 
 #SK>div>img{
-    width: 100%;
+    width: 80%;
 }
 
 #sk{
@@ -195,6 +195,48 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+#PROJECTS{
+    width: 100%;
+    background-color: #1a202c;
+    /* padding: 20px; */
+}
+#pt{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+#PROS{
+    width: 65%;
+    /* border: 1px solid grey; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px
+    ;
+    /* height: 300px; */
+
+}
+#PROS>div{
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+#Proig{
+width: 95%;
+margin: auto;
+
+
+
+}
+#Proig>img{
+    width: 100%;
+}
+
+#Card{
+    border-radius: 3%;
+}
+
+
 @media all and (min-width: 200px) and (max-width: 630px) {
     #nav{
         width: 100%;
@@ -285,8 +327,21 @@ font-size: 30px;
     justify-content: center;
 }
 #SK>div>img{
-    width: 100%;
+    width: 85%;
 }
+
+#PROS{
+    width: 80%;
+    /* border: 1px solid grey; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px
+    ;
+    /* height: 300px; */
+
+}
+
 
 }
 
