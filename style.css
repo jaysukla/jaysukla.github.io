@@ -228,6 +228,7 @@ margin: auto;
 
 
 }
+
 #Proig>img{
     width: 100%;
 }
@@ -235,7 +236,43 @@ margin: auto;
 #Card{
     border-radius: 3%;
 }
+#Github{
+    width: 100%;
+    /* border: 1px solid grey; */
+    margin-top: 50px;
+}
+#gits{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px
+    ;
+    margin: auto;
+   
+}
+#gits>div{
 
+  /* border: 1px solid coral; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#githubtitle{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+#colorgit{
+   width: 80%;
+   margin: auto;
+   margin-top: 20px;
+}
+#colorgit>img{
+    width: 100%;
+}
 
 @media all and (min-width: 200px) and (max-width: 630px) {
     #nav{
@@ -253,6 +290,7 @@ margin: auto;
        
         
         }
+        
     #homep{
         display: block;
     }
@@ -341,6 +379,18 @@ font-size: 30px;
     /* height: 300px; */
 
 }
+
+#gits{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px
+    ;
+    margin: auto;
+   
+}
+
+
 
 
 }
