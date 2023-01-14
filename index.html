@@ -17,23 +17,23 @@
         </div>
 <div id="nav">
     <div id="home">
-        <a href="#homep">Home</a>
+        <a href="#nav-link home"  >Home</a>
         </div>
         
         <div  id="about" class="about section">
-        <a href="#ABOUT">About</a>
+        <a href="#nav-link about">About</a>
         </div>
         
         <div  id="skills">
-        <a href="#Skills">Skills</a>
+        <a href="#nav-link skills">Skills</a>
         </div>
         
         <div id="projects">
-        <a href="#PROJECTS">Projects</a>
+        <a href="#nav-link projects">Projects</a>
         </div>
         
         <div  id="contact">
-            <a href="">Contact</a>
+            <a href="#nav-link contact">Contact</a>
         
         </div>
         
@@ -46,12 +46,13 @@
 
 <div id="main-cont">
 <!-- Home page starts here  -->
-    <div id="homep">
+<section class="nav-link home" id="nav-link home"></section>
+    <div id="homep"  >
 <div id="hlf">
     <div id="hl">
         <div id="bsi">
             <p>Hi there  </p>
-            <h1>I'm Jay Shukla </h1>
+            <h1  id="user-detail-name">I'm Jay Shukla </h1>
             <div class="container">
         <p> I'm a <span class="auto-type"></span></p>
             </div>
@@ -75,7 +76,7 @@
 <div id="hr">
 
 <div id="photo">
-   <img src="https://i.ibb.co/swCgYxf/Screenshot-2022-12-22-143719-3.png" alt="Screenshot-2022-12-22-143719-3" border="0">
+   <img  class="home-img" src="https://i.ibb.co/swCgYxf/Screenshot-2022-12-22-143719-3.png" alt="Screenshot-2022-12-22-143719-3" border="0">
 </div>
 
 
@@ -85,7 +86,7 @@
 
     </div>
 <!-- Home page Ends Here  -->
-
+<section class="nav-link about" id="nav-link about"></section>
 <div id="ABOUT">
     <div id="Al">
 <div id="Abi">
@@ -100,7 +101,7 @@
 <div id="Art"><h2>About ME</h2></div>
 
 <div id="Ard">
-<p>An aspiring Backend Developer. Like to work with Node.js, MongoDB, and JavaScript. Hands-on experience of cloning websites. Seeking opportunity where I can use my skills to grow the organization.</p>
+<p id="user-detail-intro"> An aspiring Backend Developer. Like to work with Node.js, MongoDB, and JavaScript. Hands-on experience of cloning websites. Seeking opportunity where I can use my skills to grow the organization.</p>
 <p>I learnt Full Stack Web Development from Masai School(India's first Skill building School "Driven by Outcomes, Fuelled by Ambitions.")
 
     </p>
@@ -110,34 +111,34 @@
     </div>
 </div>
 
-
+ <section class="nav-link skills" id="nav-link skills"></section>
 <div id="Skills">
 <div id="sk"><h1>My Skills</h1></div>
 
 
 <div id="SK">
-    <div><img src="./html.png" alt=""> </div>
+    <div class="skills-card"><img class="skills-card-img" src="./html.png" alt=""> <p  class="skills-card-name">HTML</p></div>
 
-    <div><img src="./css.png" alt=""> </div>
-    <div> <img src="./javascript.png" alt=""></div>
-    <div><img src="./node-js.png" alt=""></div>
-    <div><img src="./aws.png" alt=""></div>
-    <div><img src="./express.png" alt=""></div>
-    <div><img src="./mongodb.png" alt=""></div>
-    <div><img src="./mysql.png" alt=""></div>
+    <div class="skills-card"><img  class="skills-card-img"src="./css.png" alt=""> <p  class="skills-card-name">css</p> </div>
+    <div class="skills-card"> <img class="skills-card-img" src="./javascript.png" alt=""> <p  class="skills-card-name">JavaScript</p></div>
+    <div class="skills-card"><img class="skills-card-img" src="./node-js.png" alt=""> <p  class="skills-card-name">node-js</p> </div>
+    <div class="skills-card"><img class="skills-card-img" src="./aws.png" alt=""> <p  class="skills-card-name">aws</p> </div>
+    <div class="skills-card"><img class="skills-card-img" src="./express.png" alt=""> <p  class="skills-card-name">Express</p></div>
+    <div class="skills-card"><img class="skills-card-img" src="./mongodb.png" alt=""> <p  class="skills-card-name">MongoDB</p></div>
+    <div class="skills-card"><img class="skills-card-img" src="./mysql.png" alt=""> <p  class="skills-card-name">My-sql</p></div>
   
     
 
 </div>
 
 </div>
-
+<section class="nav-link projects"  id="nav-link projects"></section>
 <div id="PROJECTS">
 <div id="pt"><h1>Projects</h1></div>
 
 <div id="PROS">
 
-<div id="Card">
+<div id="Card"  class="project-card">
 <div id="Proig"><img src="./medicart.png" alt=""> </div>
 <h2>Netmeds.com-clone</h2>
 <p>An Ecommerce site which deals in medicine .</p>
@@ -148,14 +149,14 @@
 
 </div>
 
-<div id="Card">
+<div id="Card" class="project-card">
     <div id="Proig"><img src="./medicart.png" alt=""> </div>
-    <h2>Netmeds.com-clone</h2>
-    <p>An Ecommerce site which deals in medicine .</p>
-    <p>Tech Stacks : HTML | CSS | JavaScript</p>
+    <h2  class="project-title">Netmeds.com-clone</h2>
+    <p class="project-description">An Ecommerce site which deals in medicine .</p>
+    <p class="project-tech-stack">Tech Stacks : HTML | CSS | JavaScript</p>
     
-    <a href="https://github.com/jaysukla/doting-water-1849"><button>Github</button></a>
-    <a href="https://courageous-sopapillas-83d958.netlify.app/"><button>Live</button></a>
+    <a class="project-github-link" href="https://github.com/jaysukla/doting-water-1849"><button>Github</button></a>
+    <a  class="project-deployed-link" href="https://courageous-sopapillas-83d958.netlify.app/"><button>Live</button></a>
     
     </div>
 
@@ -190,7 +191,7 @@
 
 </div>
 
-
+<section class="nav-link contact" id="nav-link contact"></section>
 
 
 

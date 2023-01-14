@@ -168,7 +168,7 @@ font-size: 40px;
 }
 
 #SK{
-width: 55%;
+width: 45%;
 margin: auto;
 /* border: 1px solid 
 grey ; */
@@ -182,8 +182,10 @@ gap: 20px
 
 border: 1px solid grey;
 border-radius: 10%;
-display: flex;
-justify-content: center;
+/* display: flex; */
+/* justify-content: center; */
+text-align: center;
+/* padding-bottom: -10%; */
 }
 
 #SK>div>img{
@@ -274,10 +276,28 @@ margin: auto;
     width: 100%;
 }
 
+
+
+/* @media all and (min-width:200px) and (max-width:350){
+    #nav{
+        width: 100%;
+        font-size: large;
+
+    }
+
+} */
+
+
 @media all and (min-width: 200px) and (max-width: 630px) {
     #nav{
         width: 100%;
+        font-size: mediumf;
     }
+
+#about{
+    display: none;
+}
+
     #skills{
         display: none;
     }
