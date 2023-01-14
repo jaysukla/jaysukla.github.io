@@ -288,10 +288,36 @@ margin: auto;
 } */
 
 
-@media all and (min-width: 200px) and (max-width: 630px) {
+#Contact{
+
+width: 100%;
+
+margin-bottom: 50px;
+
+}
+#cont{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#CONTA{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+@media all and (min-width: 200px) and (max-width: 680px) {
     #nav{
         width: 100%;
         font-size: mediumf;
+    }
+
+    #cont{
+        width: 80%;
+        margin: auto;
+        display: block;
+        justify-content: space-around;
     }
 
 #about{
