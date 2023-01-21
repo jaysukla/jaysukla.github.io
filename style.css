@@ -478,7 +478,7 @@ font-size: 30px;
 
 
 
-@media all and (min-width: 750px) and (max-width: 950px){
+@media all and (min-width: 681px) and (max-width: 950px){
 
     #port{
 display: none;
