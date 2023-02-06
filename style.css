@@ -319,7 +319,7 @@ align-items: center;
 
 
 
-@media all and (min-width: 200px) and (max-width: 680px) {
+@media all and (min-width: 100px) and (max-width: 680px) {
     #nav{
         width: 100%;
         font-size: large;
