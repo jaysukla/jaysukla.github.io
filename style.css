@@ -19,7 +19,7 @@ background-color: rgb(32, 32, 74);
 }
 a{
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 400;
     color: aliceblue;
 }
 #nav{
@@ -318,5 +318,253 @@ align-items: center;
 
 
 
+
+
+@media all and (min-width: 100px) and (max-width: 680px) {
+  #nav-menu{
+height: 40px;
+  }
+    #nav{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #cont{
+        width: 80%;
+        margin: auto;
+        display: block;
+        justify-content: space-around;
+    }
+
+#about{
+    display: none;
+}
+
+    #skills{
+        display: none;
+    }
+    #port{
+        display: none;
+    }
+    #homep{
+        
+        height: auto;
+       
+        
+        }
+        
+    #homep{
+        display: block;
+    }
+    #homep>#hlf{
+
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid grey; */
+    
+    }
+    #hlf p{
+font-size: 30px;
+    }
+    #hlf h1{
+        font-size: 40px;
+    }
+
+    #homep>#hr{
+
+        width: 100%;
+        
+        /* border: 1px solid grey; */
+    
+    }
+
+    #photo{
+        width: 45%;
+        height: 300px;
+        /* border: 1px solid grey ; */
+        margin: auto;
+        /* margin-top: 25px ; */
+        
+      
+    }
+
+    #Al{
+        display: none;
+    }
+
+    #Ar{
+        width: 100%;
+    }
+#Art{
+    width: 46%;
+    margin: auto;
+    /* border: 1px solid red; */
+    font-size: large;
+    text-align: center;
+}
+
+#Ard{
+    width: 88%;
+   margin: auto;
+    font-size: large;
+}
+
+#SK{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid 
+    grey ; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px
+    ;
+    
+    }
+
+#sk{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#SK>div>img{
+    width: 85%;
+}
+
+#PROS{
+    width: 80%;
+    /* border: 1px solid grey; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px
+    ;
+    /* height: 300px; */
+
+}
+
+#gits{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px
+    ;
+    margin: auto;
+   
+}
+
+
+
+
+}
+
+
+
+
+@media all and (min-width: 200px) and (max-width: 400px){
+
+#ABOUT{
+    margin-top: -50px;
+    height: 500px;
+}
+
+#photo{
+    width: 40%;
+    height: 200px;
+    /* border: 1px solid grey ; */
+    margin: auto;
+    /* margin-top: 25px ; */
+    
+  
+}
+
+
+
+}
+
+
+
+@media all and (min-width: 681px) and (max-width: 1100px){
+
+    #port{
+display: none;
+
+
+    }
+
+#nav{
+width: 100%;
+font-size: x-large;
+
+}
+
+
+#Al{
+    display: none;
+}
+
+#Ar{
+    width: 100%;
+}
+#Art{
+width: 46%;
+margin: auto;
+/* border: 1px solid red; */
+font-size: large;
+text-align: center;
+}
+
+#Ard{
+width: 75%;
+margin: auto;
+font-size: large;
+}
+
+#ABOUT{
+    
+    height: auto;
+
+}
+
+#homep{
+
+height: auto;
+}
+#photo{
+width: 60%;
+
+}
+
+#hlf{
+    width: 117%;
+   margin-left: 40px;
+}
+
+#bsi h1{
+
+    font-size: 48px;;
+}
+
+#bsi p{
+
+    font-size: 32px;
+
+}
+
+#SK{
+    width: 70%;
+}
+#PROS{
+    width: 80%;
+}
+
+#cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px
+    ;
+}
+
+
+}
 
 
