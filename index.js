@@ -14,7 +14,7 @@ window.open("https://drive.google.com/file/d/14cpb-yIeYybLQTfq981lfUEBUu_N8i17/v
 // resume button 
 
 
-GitHubCalendar(".react-activity-calendar", "jaysukla", { responsive: true });
+GitHubCalendar(".calendar", "jaysukla", { responsive: true });
 
 
 
