@@ -333,7 +333,8 @@ align-items: center;
 
 
 @media all and (min-width: 100px) and (max-width: 680px) {
-  #nav-menu{
+ 
+    #nav-menu{
 height: 40px;
   }
     #nav{
