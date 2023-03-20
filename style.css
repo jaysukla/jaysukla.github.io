@@ -149,7 +149,7 @@ font-size: 40px;
     
 }
 #Abi>img{
-    width: 70%;
+    width: 80%;
     border-radius: 7%;
 }
 #Ard{
@@ -580,5 +580,15 @@ width: 60%;
 
 
 }
+
+
+
+
+#resume-button-1 , #resume-button-2{
+    background-color: grey;
+    border-radius: 4px;
+}
+
+
 
 
