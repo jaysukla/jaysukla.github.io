@@ -4,6 +4,9 @@ body{
     #191f2a;
     color: aliceblue;
 }
+.mobile-container{
+    display: none;
+}
 
 #nav-menu{
   position: fixed;
@@ -334,9 +337,13 @@ align-items: center;
 
 @media all and (min-width: 100px) and (max-width: 680px) {
   
-
+    .mobile-container{
+        display: block;
+    }
     #nav-menu{
 height: 40px;
+display:none
+;
   }
     #nav{
         width: 100%;
@@ -590,5 +597,64 @@ width: 60%;
 }
 
 
+/* hamburger menu css  */
 
+.mobile-container {
+    max-width: 100%;
+    margin: auto;
+    /* background-color: #555; */
+    height: auto;
+    color: white;
+    border-radius: 10px;
+    /* position: fixed; */
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid grey; */
+  
+    align-items: center;
+   
+ 
+  }
+  
+  .topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+    background-color: rgb(32, 32, 74);
+    height: 45px;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    /* background: black; */
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: aliceblue;
 
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    /* background-color: #04AA6D; */
+    color: white;
+  }
+
+  /* hamburger menu css end  */

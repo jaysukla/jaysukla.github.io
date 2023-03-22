@@ -7,13 +7,35 @@
     <title>Jay_Shukla_Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
    
 </head>
 <body>   
     
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#nav-link home" class="active">Portfolio</a>
+      <div id="myLinks">
+        <a href="#nav-link home"  >Home</a>
+        <a href="#nav-link about">About</a>
+        <a  href="#nav-link skills">Skills</a>
+        <a href="#nav-link projects">Projects</a>
+        <a href="#nav-link contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    
+    
+    <!-- End smartphone / tablet look -->
+    </div>
 
 
     
@@ -344,4 +366,18 @@ loop:true
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
 <script src="index.js"></script>
+<script>
+    function myFunction() {
+        let y=document.querySelector(".topnav")
+        y.style.height="auto";
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+         y.style.height="45px";
+      } else {
+        x.style.display = "block";
+       
+      }
+    }
+    </script>
 </html>
