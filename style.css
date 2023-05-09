@@ -155,7 +155,7 @@ font-size: 40px;
     width: 80%;
     border-radius: 7%;
 }
-#Ard{
+.Ard{
     width: 65%;
     margin-left: 20%;
     margin-top: 5%;
@@ -424,7 +424,7 @@ font-size: 30px;
     text-align: center;
 }
 
-#Ard{
+.Ard{
     width: 88%;
    margin: auto;
     font-size: large;
@@ -534,7 +534,7 @@ font-size: large;
 text-align: center;
 }
 
-#Ard{
+.Ard{
 width: 75%;
 margin: auto;
 font-size: large;
