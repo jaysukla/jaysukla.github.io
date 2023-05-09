@@ -1,9 +1,9 @@
 
 // resume button 
-let btn = document.querySelector("#resume-button-1")
-let btn2=document.querySelector("#resume-button-2")
-btn2.addEventListener("click",redirec)
-btn.addEventListener("click",redirec)
+// let btn = document.querySelector("#resume-button-1")
+// let btn2=document.querySelector("#resume-button-2")
+// btn2.addEventListener("click",redirec)
+// btn.addEventListener("click",redirec)
 
 
 function redirec(){
