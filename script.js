@@ -41,3 +41,5 @@ $(document).ready(function(){
     });
   
   });
+
+  GitHubCalendar(".calendar", "jaysukla", { responsive: true });
